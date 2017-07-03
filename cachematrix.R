@@ -33,9 +33,9 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
-## This function will check whether the inverse has been cached
-## and if so will retrieve it from memory, otherwise will set the inverse
-## for future retrieval
+## This function will check whether the inverse has been cached 
+## and if the matrix has not changedand if so will retrieve it from memory, 
+## otherwise will set the inverse for future retrieval
 
 cacheSolve <- function(x, ...) {
         mxinv  <- x$getinverse()
