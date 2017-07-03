@@ -15,7 +15,7 @@
 ## 5. getorigmx  - Gets the original matrix for which inverse was calculated
 makeCacheMatrix <- function(x = matrix()) {
         mxinv <- NULL
-        mx <<- NULL
+        mx <- NULL
         setmatx <- function(y) {
                 x <<- y
                 mxinv  <<- NULL
